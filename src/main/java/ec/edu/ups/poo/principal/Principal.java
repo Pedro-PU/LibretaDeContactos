@@ -16,6 +16,11 @@ public class Principal {
     public static void main(String[] args){
         Scanner lector = new Scanner(System.in);
         //Personas
+        Persona p = new Persona();
+        p.setNombre("Pedro");
+        p.setApellido("Pesántez");
+        p.setCedula("0107533688");
+
         System.out.print("Cuantas personas quieres ingresar: ");
         int numPersonas = lector.nextInt();
         System.out.println("-".repeat(45));
