@@ -15,6 +15,11 @@ import java.util.Scanner;
 public class Principal {
     public static void main(String[] args){
         Scanner lector = new Scanner(System.in);
+        // Commit Jonnathan Saavedra
+        System.out.println("-".repeat(20));
+        System.out.println("Commit 1 Jonnathan");
+        System.out.println("-".repeat(20));
+
         //Personas
         Persona p = new Persona();
         p.setNombre("Pedro");
