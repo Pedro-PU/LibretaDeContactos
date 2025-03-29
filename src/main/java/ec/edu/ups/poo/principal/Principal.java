@@ -20,6 +20,12 @@ public class Principal {
         System.out.println("Commit 1 Jonnathan");
         System.out.println("-".repeat(20));
 
+        //
+
+        System.out.println("-".repeat(20));
+        System.out.println("Commit 2 Jonnathan");
+        System.out.println("-".repeat(20));
+
         //Personas
         Persona p = new Persona();
         p.setNombre("Pedro");
